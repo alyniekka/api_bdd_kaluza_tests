@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1031499
+              "duration": 1189832
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202790
+              "duration": 118040
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81999
+              "duration": 80541
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2992396667
+              "duration": 2685191834
             }
           },
           {
@@ -70,9 +70,8 @@
               "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:35"
             },
             "result": {
-              "status": "failed",
-              "duration": 2751791,
-              "error_message": "AssertionError: First journey should have the minimal duration: expected 39 to equal 33\n    + expected - actual\n\n    -39\n    +33\n\n    at World.<anonymous> (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)"
+              "status": "passed",
+              "duration": 1223041
             }
           }
         ],
@@ -96,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 279499
+              "duration": 140124
             }
           },
           {
@@ -109,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 145457
+              "duration": 152708
             }
           },
           {
@@ -122,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2492232708
+              "duration": 2660494125
             }
           },
           {
@@ -135,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1305459
+              "duration": 701082
             }
           }
         ],
@@ -159,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 779833
+              "duration": 596833
             }
           },
           {
@@ -172,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 97124
+              "duration": 76708
             }
           },
           {
@@ -185,7 +184,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 79917
+              "duration": 63708
             }
           },
           {
@@ -198,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2159166
+              "duration": 2104166
             }
           },
           {
@@ -211,7 +210,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2684948459
+              "duration": 2962372665
             }
           },
           {
@@ -224,7 +223,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8548957
+              "duration": 9426625
             }
           }
         ],

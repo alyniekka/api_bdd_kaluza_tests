@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Cucumber Feature Report</title>
-  <link rel="icon" href="https://www.lambdatest.com/favicon.ico">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <style type="text/css">
-    .panel-heading {
+  <head>
+    <title>Cucumber Feature Report</title>
+    <link rel="icon" href="https://www.lambdatest.com/favicon.ico" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+    <style type="text/css">
+      .panel-heading {
     padding: 0;
 }
 
@@ -285,178 +284,119 @@ pre {
     min-width: 100%;
 }
 
-.ellipsis {
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transition: all .2s linear;
-    white-space: nowrap;
-    padding:.5rem 1rem;
-}
-.ellipsis:focus, .ellipsis:hover {
-  color:transparent;
-}
-.ellipsis:focus:after,.ellipsis:hover:after{
-    content:attr(data-text);
-    overflow: visible;
-    text-overflow: inherit;
-    background: #fff;
-    position: absolute;
-    left:auto;
-    top:auto;
-    width: auto;
-    max-width: 100%;
-    border: 1px solid #eaebec;
-    padding: 0 .5rem;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.28);
-    white-space: normal;
-    word-wrap: break-word;
-    display:block;
-    color:black;
-    margin-top:-1.25rem;
-    z-index: 1;
-  }
 
-    /** Issue in google-charts tooltip - https://github.com/google/google-visualization-issues/issues/2162 */
-    .google-visualization-tooltip {
-      pointer-events: none;
-    }
-
-    .count-wrapper {
-      display: flex;
-      gap: 15px;
-    }
-
-    .card {
-      border: 1px solid #f5f5f5;
-      padding: 15px;
-      color: #fff;
-      border-radius: 5px;
-      flex: 1;
-    }
-
-    .generated-on {
-      margin-right: 10px;
-    }
-
-    .card h4 {
-      font-size: 15px;
-    }
-
-    .red-box {
-      background: #d9534e;
-    }
-
-    .blue-box {
-      background: #0074ff;
-    }
-
-    .yellow-box {
-      background: #f0ad4e;
-    }
-
-    .saffron-box {
-      background: #ff9933;
-    }
-
-    .green-box {
-      background: #5cb85b;
-    }
-
-    .gray-box {
-      background: #999;
-    }
-
-    .amb-box {
-      background: #218bcf;
-    }
-
-    .undefined-box {
-      background: #22c2e2;
-    }
-
-    .mb-20px {
-      margin-bottom: 20px;
-    }
-  </style>
-  <meta charset="UTF-8">
-</head>
-
-<body>
-
-  <div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        
-          <a class="navbar-brand">
-            Cucumberjs Report
-          </a>
-          <div class="project-name visible-md visible-lg">
-            api_bdd_kaluza_tests
-          </div>
-          <div class="label-container">
-            <div class="generated-on">
-              Sun Sep 01 2024 22:52:15 GMT+0100 (British Summer Time)
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-
-    <div class="count-wrapper mb-20px">
-      <div class="card blue-box">
-        <div class="feature-title">
-          <h4>All Scenarios</h2>
-        </div>
-        <div class="feature-value">
-          <h5>
-            3
-          </h5>
-        </div>
-      </div>
-      <div class="card green-box">
-        <div class="feature-title">
-          <h4>Passed Scenarios</h2>
-        </div>
-        <div class="feature-value">
-          <h5>
-            2
-          </h5>
-        </div>
-      </div>
-      <div class="card red-box">
-        <div class="feature-title">
-          <h4>Failed Scenarios</h2>
-        </div>
-        <div class="feature-value">
-          <h5>
-            1
-          </h5>
-        </div>
-      </div>
+/** Issue in google-charts tooltip - https://github.com/google/google-visualization-issues/issues/2162 */
+.google-visualization-tooltip { pointer-events:none; }
       
-          
-              
-                  
-                      
-    </div>
-    <div class="row">
-      <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
-      <div class="chart col-lg-6 col-md-6" id="piechart_scenarios"></div>
+.count-wrapper{
+  display: flex;
+  gap: 15px;
+}
+.card{
+  border: 1px solid #f5f5f5;
+  padding: 15px;
+  color: #fff;
+  border-radius: 5px;
+  flex: 1;
+}
+.generated-on{
+  margin-right: 10px;
+}
+.card h4{
+  font-size: 15px;
+}
+.red-box{
+  background: #d9534e;
+}
+.blue-box{
+  background: #0074ff;
+}
+.yellow-box{
+  background: #f0ad4e;
+}
+.saffron-box{
+  background: #ff9933;
+}
+.green-box{
+  background: #5cb85b;
+}
+.gray-box{
+  background: #999;
+}
+.amb-box{
+  background: #218bcf;
+}
+.undefined-box{
+  background: #22c2e2;
+}
+.mb-20px{
+  margin-bottom: 20px;
+}
+    </style>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+        
+          <a class="navbar-brand">Cucumberjs Report</a>
+          <div class="project-name visible-md visible-lg">api_bdd_kaluza_tests</div>
+          <div class="label-container">
+                <div class="generated-on">
+                  Sun Sep 01 2024 22:57:57 GMT+0100 (British Summer Time)
+                </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <p class="text-right">
-        <a id="expand_all">Expand All</a>
-        <span> | </span>
-        <a id="collapse_all">Collapse All</a>
-      </p>
-    </div>
+    <div class="container">
 
-    
+      <div class="count-wrapper mb-20px">
+        <div class="card blue-box">
+          <div class="feature-title">
+            <h4>All Scenarios</h2>
+          </div>
+          <div class="feature-value">
+            <h5>
+              3
+            </h5>
+          </div>
+        </div>
+        <div class="card green-box">
+          <div class="feature-title">
+            <h4>Passed Scenarios</h2>
+          </div>
+          <div class="feature-value">
+            <h5>
+              3
+            </h5>
+          </div>
+        </div>
+        <div class="card red-box">
+          <div class="feature-title">
+            <h4>Failed Scenarios</h2>
+          </div>
+          <div class="feature-value">
+            <h5>
+              0
+            </h5>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+      </div>
+      <div class="row">
+        <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
+        <div class="chart col-lg-6 col-md-6" id="piechart_scenarios"></div>
+      </div>
+
+      
       <div class="panel panel-default">
         <div class="panel-heading open">
           <h4 class="panel-title">
@@ -471,86 +411,68 @@ pre {
           <div class="panel-body">
             <div class="row">
               
-                
-                  
-                    
-                      <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class=pull-left>
-                          <strong>
-                            App Version:
-                          </strong>
-                          0.1.1
-                        </div>
-                      </div>
-                      
-                  
-                    
-                      <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class=pull-right-lg>
-                          <strong>
-                            Test Environment:
-                          </strong>
-                          PRODUCTION
-                        </div>
-                      </div>
-                      
-                  
-                    
-                      <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class=pull-left>
-                          <strong>
-                            Browser:
-                          </strong>
-                          none
-                        </div>
-                      </div>
-                      
-                  
-                    
-                      <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class=pull-right-lg>
-                          <strong>
-                            Platform:
-                          </strong>
-                          MacOS
-                        </div>
-                      </div>
-                      
-                  
-                    
-                      <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class=pull-left>
-                          <strong>
-                            Executed:
-                          </strong>
-                          Remote
-                        </div>
-                      </div>
-                      
-                  
-                    
-                      <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class=pull-right-lg>
-                          <strong>
-                            API under tests:
-                          </strong>
-                          https://api.tfl.gov.uk/journey/journeyresults/
-                        </div>
-                      </div>
-                      
+             
+              
+              
+              <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class=pull-left>
+                    <strong> App Version: </strong>0.1.1
+                  </div>
+              </div>
+              
+              
+              
+              <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class=pull-right-lg>
+                    <strong> Test Environment: </strong>PRODUCTION
+                  </div>
+              </div>
+              
+              
+              
+              <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class=pull-left>
+                    <strong> Browser: </strong>none
+                  </div>
+              </div>
+              
+              
+              
+              <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class=pull-right-lg>
+                    <strong> Platform: </strong>MacOS
+                  </div>
+              </div>
+              
+              
+              
+              <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class=pull-left>
+                    <strong> Executed: </strong>Remote
+                  </div>
+              </div>
+              
+              
+              
+              <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class=pull-right-lg>
+                    <strong> API under tests: </strong>https://api.tfl.gov.uk/journey/journeyresults/
+                  </div>
+              </div>
+              
             </div>
           </div>
         </div>
       </div>
       
 
-        
+      
 
 
 <div class="row" xmlns="http://www.w3.org/1999/html">
 
 
-<div class="feature-failed">
+<div class="feature-passed">
 
     <div class="col-lg-6 col-md-6">
         <div class="panel panel-default">
@@ -560,15 +482,14 @@ pre {
                     <div class="tags">
                     </div>
                     
-                    <a data-toggle="collapse" href="#collapseFeatureapi_bdd_kaluza_tests2ac318d5-5248-43ed-9470-89761ae4b11e">
+                    <a data-toggle="collapse" href="#collapseFeatureapi_bdd_kaluza_tests29db5588-0740-493c-8032-c0d00f58e7b8">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Feature:</b>Journey planning
                         <span class="label-container">
               <span class="label label-success"
-                                                         title="2 Scenarios Passed">2</span>
-              <span class="label label-danger"
-                                                         title="1 Scenarios Failed">1</span>
+                                                         title="3 Scenarios Passed">3</span>
+              
               
               
               
@@ -577,7 +498,7 @@ pre {
                     </a>
                 </h4>
             </div>
-            <div id="collapseFeatureapi_bdd_kaluza_tests2ac318d5-5248-43ed-9470-89761ae4b11e" class="panel-collapse collapse">
+            <div id="collapseFeatureapi_bdd_kaluza_tests29db5588-0740-493c-8032-c0d00f58e7b8" class="panel-collapse collapse">
                 <div class="panel-body">
                     
                     
@@ -590,24 +511,23 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests2acaa2cd-56dd-48d1-9bc8-ea408c3887b2">
+                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests07b5a7af-86e6-4ba5-9c20-23bae5d13265">
                                     <div>
 
-                                        <div style="padding-right: 50px">
+                                        <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b><div class="ellipsis" data-text="Quickest journey within a city">Quickest journey within a city</div>
+                                            <b>Scenario:</b>Quickest journey within a city
                                         </div>
                                         <div>
                             <span class="label-container ">
                               
                               <span class="label label-success"
-                                                               title="4 Steps Passed">4</span>
+                                                               title="5 Steps Passed">5</span>
                               
                               
                               
-                              <span class="label label-danger"
-                                                               title="1 Steps Failed">1</span>
+                              
                               
                             </span>
                                         </div>
@@ -616,7 +536,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioapi_bdd_kaluza_tests2acaa2cd-56dd-48d1-9bc8-ea408c3887b2"
+                        <div id="collapseScenarioapi_bdd_kaluza_tests07b5a7af-86e6-4ba5-9c20-23bae5d13265"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -751,7 +671,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 992ms
+                               2s 685ms
                               </span>
                             
                          
@@ -779,8 +699,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-danger" title="Failed"><i
-                                            class="glyphicon glyphicon-remove"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
@@ -789,7 +709,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2ms
+                               1ms
                               </span>
                             
                          
@@ -800,58 +720,6 @@ pre {
                       </span>
                                 
                                 
-
-                                    
-                                    <a href="#error0_04"
-                                       data-toggle="collapse" class="toggle">Show Error +</a>
-                                    <div id="error0_04"
-                                         class="collapse">
-                                        <pre class="info show-modal"
-                                             data-toggle="modal"
-                                             style="cursor: pointer"
-                                             data-target="#error-modal-0_04">
-                                            <br> AssertionError: First journey should have the minimal duration: expected 39 to equal 33
-    + expected - actual
-
-    -39
-    +33
-
-    at World.(anonymous) (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)</pre>
-                                    </div>
-
-                                <div class="modal fade" id="error-modal-0_04" tabindex="-1" role="dialog"
-                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                                </button>
-                                                <h4 class="modal-title" id="error-modal-title">
-                                                    Error
-                                                </h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h5>
-                                                    <pre><br>AssertionError: First journey should have the minimal duration: expected 39 to equal 33
-    + expected - actual
-
-    -39
-    +33
-
-    at World.(anonymous) (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)</pre>
-                                                </h5>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                                    Close
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
 
                                     
 
@@ -877,13 +745,13 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests5b5d5872-ca84-4529-b7a8-7add8d1d74f3">
+                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_testsbc153cc9-ad61-4b59-9514-eb57af45b3d0">
                                     <div>
 
                                         <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b><div class="ellipsis" data-text="Journey between cities">Journey between cities</div>
+                                            <b>Scenario:</b>Journey between cities
                                         </div>
                                         <div>
                             <span class="label-container ">
@@ -902,7 +770,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioapi_bdd_kaluza_tests5b5d5872-ca84-4529-b7a8-7add8d1d74f3"
+                        <div id="collapseScenarioapi_bdd_kaluza_testsbc153cc9-ad61-4b59-9514-eb57af45b3d0"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -999,7 +867,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 492ms
+                               2s 660ms
                               </span>
                             
                          
@@ -1037,7 +905,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               1ms
+                               < 1ms
                               </span>
                             
                          
@@ -1073,13 +941,13 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests81cc3763-4606-4435-8a70-ddfb0f8e62a0">
+                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests4b3e83b6-1481-41bb-b0a5-a2d40c3fab34">
                                     <div>
 
                                         <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b><div class="ellipsis" data-text="Journey from the airport to the office by a specific time">Journey from the airport to the office by a specific time</div>
+                                            <b>Scenario:</b>Journey from the airport to the office by a specific time
                                         </div>
                                         <div>
                             <span class="label-container ">
@@ -1098,7 +966,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioapi_bdd_kaluza_tests81cc3763-4606-4435-8a70-ddfb0f8e62a0"
+                        <div id="collapseScenarioapi_bdd_kaluza_tests4b3e83b6-1481-41bb-b0a5-a2d40c3fab34"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -1271,7 +1139,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 684ms
+                               2s 962ms
                               </span>
                             
                          
@@ -1309,7 +1177,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               8ms
+                               9ms
                               </span>
                             
                          
@@ -1347,124 +1215,38 @@ pre {
 
 
 
-          
-            <div class="panel panel-default">
-              <div class="panel-heading open">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" href="#failed_summary">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                    <b>Failed Test Scenarios Summary</b>
-                  </a>
-                </h4>
-              </div>
+    </div>
 
 
-              <div class="panel-collapse collapse in" id="failed_summary">
-                <div class="panel-body">
-                  <table class="table table-bordered table-condensed" style="overflow-wrap: anywhere">
-                    
-                        
-                          <tr>
-                            <th>Feature</th>
-                            <th>Scenario</th>
-                            <th>Tags</th>
-                            <th>Step Failed</th>
-                            <th>Failed Exception</th>
-                          </tr>
-                          
-                            
-                              
-                                
-                                  
-                                    <tr>
-                                      <td>
-                                        Journey planning
-                                      </td>
-                                      <td>
-                                        Quickest journey within a city
-                                      </td>
-                                      <td>
-                                        
-                                      </td>
-
-                                      
-                                        
-                                            
-                                        
-                                            
-                                        
-                                            
-                                        
-                                            
-                                        
-                                          <td>
-                                            "current_user" should receive the "quickest" journey plan
-                                          </td>
-                                          <td>
-                                            AssertionError: First journey should have the minimal duration: expected 39 to equal 33
-    + expected - actual
-
-    -39
-    +33
-
-    at World.<anonymous> (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)
-                                          </td>
-                                          
-                                            
-                                              
-                                                
-                                  
-                                                
-                                  
-                                                
-                                    </tr>
-                                    
-                                      
-                  </table>
-                </div>
-              </div>
-            </div>
-            
-  </div>
-
-
-
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
-  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-  <script type="text/javascript">
-    google.load("visualization", "1", { packages: ["corechart"] });
-    google.setOnLoadCallback(function () {
-      drawChart({
-        "title": "Features",
-        "failed": 1,
-        "passed": 0,
-        "notdefined": 0,
-        "pending": 0,
-        "skipped": 0,
-        "ambiguous": 0
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load("visualization", "1", {packages: ["corechart"]});
+        google.setOnLoadCallback(function() {drawChart({
+                                                            "title" : "Features",
+                                                            "failed" : 0,
+                                                            "passed" : 1,
+                                                            "notdefined" : 0,
+                                                            "pending" : 0,
+                                                            "skipped" : 0,
+                                                            "ambiguous" : 0
                                                         })
-    });
-    google.setOnLoadCallback(function () {
-      drawChart({
-        "title": "Scenarios",
-        "failed": 1,
-        "passed": 2,
-        "rerun": 0,
-        "notdefined": 0,
-        "pending": 0,
-        "skipped": 0,
-        "ambiguous": 0
+                                            });
+        google.setOnLoadCallback(function() {drawChart({
+                                                            "title" : "Scenarios",
+                                                            "failed" : 0,
+                                                            "passed" : 3,
+                                                            "rerun" : 0,
+                                                            "notdefined" : 0,
+                                                            "pending" : 0,
+                                                            "skipped" : 0,
+                                                            "ambiguous" : 0
                                                         })
-    });
-  </script>
-  <script>
+                                            });
+    </script>
+    <script>
       $(document).ready(function () {
   $('.collapse')
     .on('hide.bs.collapse', function (e) {
@@ -1481,28 +1263,6 @@ pre {
   let timestamp = $generated.text();
   $generated.text('Report generated ' + moment(timestamp).fromNow());
   $generated.prop('title', new Date(timestamp).toISOString());
-});
-
-$(document).ready(function () {
-  const $collapsibleItems = $('[data-toggle="collapse"]');
-  const $collapseAllBtn = $('#collapse_all');
-  const $expandAllBtn = $('#expand_all');
-
-  const collapseAll = function () {
-    $collapsibleItems.each(function () {
-      $($(this).attr('href')).collapse('hide');
-    });
-  };
-
-  const expandAll = function () {
-    $collapsibleItems.each(function () {
-      $($(this).attr('href')).collapse('show');
-    });
-  };
-
-  $collapseAllBtn.on('click', collapseAll);
-  $expandAllBtn.on('click', expandAll);
-
 });
 
 function toggle(className) {
@@ -1591,7 +1351,6 @@ function toggle(className) {
   }
 });
 
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
