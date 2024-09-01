@@ -15,11 +15,11 @@
             "line": 3,
             "name": "\"current_user\" is at \"69 Notting Hill Gate, London\"",
             "match": {
-              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:56"
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 1189832
+              "duration": 1146375
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 4,
             "name": "\"current_user\" wants to travel to \"Southbank Centre, London\"",
             "match": {
-              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:59"
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:61"
             },
             "result": {
               "status": "passed",
-              "duration": 118040
+              "duration": 263582
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 80541
+              "duration": 74499
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2685191834
+              "duration": 2886764833
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1223041
+              "duration": 1667834
             }
           }
         ],
@@ -91,11 +91,11 @@
             "line": 10,
             "name": "\"current_user\" is at \"69 Notting Hill Gate, London\"",
             "match": {
-              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:56"
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 140124
+              "duration": 194417
             }
           },
           {
@@ -104,11 +104,11 @@
             "line": 11,
             "name": "\"current_user\" wants to travel to \"Temple Meads, Bristol\"",
             "match": {
-              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:59"
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:61"
             },
             "result": {
               "status": "passed",
-              "duration": 152708
+              "duration": 131124
             }
           },
           {
@@ -121,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2660494125
+              "duration": 65878666
             }
           },
           {
@@ -134,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 701082
+              "duration": 592499
             }
           }
         ],
@@ -154,11 +154,11 @@
             "line": 16,
             "name": "\"belfast_qa_lead\" is at \"Luton Airport, Luton\"",
             "match": {
-              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:56"
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 596833
+              "duration": 541374
             }
           },
           {
@@ -167,11 +167,11 @@
             "line": 17,
             "name": "\"belfast_qa_lead\" wants to travel to \"69 Notting Hill Gate, London\"",
             "match": {
-              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:59"
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:61"
             },
             "result": {
               "status": "passed",
-              "duration": 76708
+              "duration": 54958
             }
           },
           {
@@ -184,7 +184,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63708
+              "duration": 43624
             }
           },
           {
@@ -193,11 +193,11 @@
             "line": 19,
             "name": "\"belfast_qa_lead\" needs to arrive at the destination by \"8:50am\"",
             "match": {
-              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:62"
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:64"
             },
             "result": {
               "status": "passed",
-              "duration": 2104166
+              "duration": 1130208
             }
           },
           {
@@ -210,7 +210,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2962372665
+              "duration": 66245167
             }
           },
           {
@@ -223,7 +223,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9426625
+              "duration": 5077207
             }
           }
         ],

@@ -50,6 +50,8 @@ When(/^(.+) requests the(?: "([^"]+)")? journey plan$/,
 Then(/^(.+) should receive the(?: "([^"]+)")? journey plan$/,
   function (subject: string, journeyPreference?: string) {
     expect(this.journeyResponse.journeys).to.be.an('array').that.is.not.empty;
+    expect(this.journeyResponse.journeyVector.from).to.equal(this.from);
+    expect(this.journeyResponse.journeyVector.to).to.equal(this.to);
 
     if (journeyPreference == 'quickest') {
       const journeyDurations = this.journeyResponse.journeys.map(
