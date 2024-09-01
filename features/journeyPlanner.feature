@@ -18,4 +18,4 @@ Feature: Journey planning
     And "belfast_qa_lead" is traveling on "04.09.2024"
     And "belfast_qa_lead" needs to arrive at the destination by "8:50am"
     When "belfast_qa_lead" requests the journey plan
-    Then "belfast_qa_lead" should receive the journey plan
+    Then "belfast_qa_lead" should receive the "arrive by 8:50am" journey plan

@@ -397,7 +397,7 @@ pre {
           </div>
           <div class="label-container">
             <div class="generated-on">
-              Sun Sep 01 2024 22:29:04 GMT+0100 (British Summer Time)
+              Sun Sep 01 2024 22:52:15 GMT+0100 (British Summer Time)
             </div>
           </div>
       </div>
@@ -423,7 +423,7 @@ pre {
         </div>
         <div class="feature-value">
           <h5>
-            3
+            2
           </h5>
         </div>
       </div>
@@ -433,7 +433,7 @@ pre {
         </div>
         <div class="feature-value">
           <h5>
-            0
+            1
           </h5>
         </div>
       </div>
@@ -550,7 +550,7 @@ pre {
 <div class="row" xmlns="http://www.w3.org/1999/html">
 
 
-<div class="feature-passed">
+<div class="feature-failed">
 
     <div class="col-lg-6 col-md-6">
         <div class="panel panel-default">
@@ -560,14 +560,15 @@ pre {
                     <div class="tags">
                     </div>
                     
-                    <a data-toggle="collapse" href="#collapseFeatureapi_bdd_kaluza_tests683535bb-d750-4ebd-b174-c572767f5185">
+                    <a data-toggle="collapse" href="#collapseFeatureapi_bdd_kaluza_tests2ac318d5-5248-43ed-9470-89761ae4b11e">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Feature:</b>Journey planning
                         <span class="label-container">
               <span class="label label-success"
-                                                         title="3 Scenarios Passed">3</span>
-              
+                                                         title="2 Scenarios Passed">2</span>
+              <span class="label label-danger"
+                                                         title="1 Scenarios Failed">1</span>
               
               
               
@@ -576,7 +577,7 @@ pre {
                     </a>
                 </h4>
             </div>
-            <div id="collapseFeatureapi_bdd_kaluza_tests683535bb-d750-4ebd-b174-c572767f5185" class="panel-collapse collapse">
+            <div id="collapseFeatureapi_bdd_kaluza_tests2ac318d5-5248-43ed-9470-89761ae4b11e" class="panel-collapse collapse">
                 <div class="panel-body">
                     
                     
@@ -589,10 +590,10 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests138a4dd6-372b-40b6-9925-a20dda49d549">
+                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests2acaa2cd-56dd-48d1-9bc8-ea408c3887b2">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b><div class="ellipsis" data-text="Quickest journey within a city">Quickest journey within a city</div>
@@ -601,11 +602,12 @@ pre {
                             <span class="label-container ">
                               
                               <span class="label label-success"
-                                                               title="5 Steps Passed">5</span>
+                                                               title="4 Steps Passed">4</span>
                               
                               
                               
-                              
+                              <span class="label label-danger"
+                                                               title="1 Steps Failed">1</span>
                               
                             </span>
                                         </div>
@@ -614,7 +616,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioapi_bdd_kaluza_tests138a4dd6-372b-40b6-9925-a20dda49d549"
+                        <div id="collapseScenarioapi_bdd_kaluza_tests2acaa2cd-56dd-48d1-9bc8-ea408c3887b2"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -749,7 +751,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 644ms
+                               2s 992ms
                               </span>
                             
                          
@@ -777,8 +779,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-danger" title="Failed"><i
+                                            class="glyphicon glyphicon-remove"></i></span>
                                     
                                     
                                     <span class="text">
@@ -787,7 +789,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               1ms
+                               2ms
                               </span>
                             
                          
@@ -798,6 +800,58 @@ pre {
                       </span>
                                 
                                 
+
+                                    
+                                    <a href="#error0_04"
+                                       data-toggle="collapse" class="toggle">Show Error +</a>
+                                    <div id="error0_04"
+                                         class="collapse">
+                                        <pre class="info show-modal"
+                                             data-toggle="modal"
+                                             style="cursor: pointer"
+                                             data-target="#error-modal-0_04">
+                                            <br> AssertionError: First journey should have the minimal duration: expected 39 to equal 33
+    + expected - actual
+
+    -39
+    +33
+
+    at World.(anonymous) (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)</pre>
+                                    </div>
+
+                                <div class="modal fade" id="error-modal-0_04" tabindex="-1" role="dialog"
+                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h4 class="modal-title" id="error-modal-title">
+                                                    Error
+                                                </h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>
+                                                    <pre><br>AssertionError: First journey should have the minimal duration: expected 39 to equal 33
+    + expected - actual
+
+    -39
+    +33
+
+    at World.(anonymous) (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)</pre>
+                                                </h5>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                     
 
@@ -823,7 +877,7 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_testsd1a4de83-2afd-4cdc-bfd1-fbc4c3b08ce8">
+                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests5b5d5872-ca84-4529-b7a8-7add8d1d74f3">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -848,7 +902,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioapi_bdd_kaluza_testsd1a4de83-2afd-4cdc-bfd1-fbc4c3b08ce8"
+                        <div id="collapseScenarioapi_bdd_kaluza_tests5b5d5872-ca84-4529-b7a8-7add8d1d74f3"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -945,7 +999,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               80ms
+                               2s 492ms
                               </span>
                             
                          
@@ -983,7 +1037,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               1ms
                               </span>
                             
                          
@@ -1019,7 +1073,7 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests35aa64f3-88cf-496b-9ad4-a057e2b78764">
+                                <a data-toggle="collapse" href="#collapseScenarioapi_bdd_kaluza_tests81cc3763-4606-4435-8a70-ddfb0f8e62a0">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -1044,7 +1098,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioapi_bdd_kaluza_tests35aa64f3-88cf-496b-9ad4-a057e2b78764"
+                        <div id="collapseScenarioapi_bdd_kaluza_tests81cc3763-4606-4435-8a70-ddfb0f8e62a0"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -1179,7 +1233,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               1ms
+                               2ms
                               </span>
                             
                          
@@ -1217,7 +1271,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               3s 306ms
+                               2s 684ms
                               </span>
                             
                          
@@ -1251,11 +1305,11 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> &quot;belfast_qa_lead&quot; should receive the journey plan</span>
+                          <span> &quot;belfast_qa_lead&quot; should receive the &quot;arrive by 8:50am&quot; journey plan</span>
                             
                           
                               <span class="step-duration">
-                               9ms
+                               8ms
                               </span>
                             
                          
@@ -1310,15 +1364,55 @@ pre {
                 <div class="panel-body">
                   <table class="table table-bordered table-condensed" style="overflow-wrap: anywhere">
                     
-                      <div>
-                        <p class="text-center">Nothing to show</p>
-                      </div>
-                      
                         
+                          <tr>
+                            <th>Feature</th>
+                            <th>Scenario</th>
+                            <th>Tags</th>
+                            <th>Step Failed</th>
+                            <th>Failed Exception</th>
+                          </tr>
+                          
                             
                               
                                 
                                   
+                                    <tr>
+                                      <td>
+                                        Journey planning
+                                      </td>
+                                      <td>
+                                        Quickest journey within a city
+                                      </td>
+                                      <td>
+                                        
+                                      </td>
+
+                                      
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                          <td>
+                                            "current_user" should receive the "quickest" journey plan
+                                          </td>
+                                          <td>
+                                            AssertionError: First journey should have the minimal duration: expected 39 to equal 33
+    + expected - actual
+
+    -39
+    +33
+
+    at World.<anonymous> (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)
+                                          </td>
+                                          
+                                            
+                                              
                                                 
                                   
                                                 
@@ -1349,8 +1443,8 @@ pre {
     google.setOnLoadCallback(function () {
       drawChart({
         "title": "Features",
-        "failed": 0,
-        "passed": 1,
+        "failed": 1,
+        "passed": 0,
         "notdefined": 0,
         "pending": 0,
         "skipped": 0,
@@ -1360,8 +1454,8 @@ pre {
     google.setOnLoadCallback(function () {
       drawChart({
         "title": "Scenarios",
-        "failed": 0,
-        "passed": 3,
+        "failed": 1,
+        "passed": 2,
         "rerun": 0,
         "notdefined": 0,
         "pending": 0,

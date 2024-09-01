@@ -51,7 +51,7 @@ Then(/^(.+) should receive the(?: "([^"]+)")? journey plan$/,
   function (subject: string, journeyPreference?: string) {
     expect(this.journeyResponse.journeys).to.be.an('array').that.is.not.empty;
 
-    if (journeyPreference) {
+    if (journeyPreference == 'quickest') {
       const journeyDurations = this.journeyResponse.journeys.map(
         (journey: any) => journey.duration
       );
@@ -63,7 +63,7 @@ Then(/^(.+) should receive the(?: "([^"]+)")? journey plan$/,
       );
     }
 
-    if (this.time && this.timeIs) {
+    if (journeyPreference && this.time && this.timeIs) {
       if (this.timeIs == 'arriving') {
         const journeyArrivalTimes = this.journeyResponse.journeys.map(
           (journey: any) => moment(journey.arrivalDateTime).toISOString()

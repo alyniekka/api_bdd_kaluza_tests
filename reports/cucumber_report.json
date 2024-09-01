@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1393958
+              "duration": 1031499
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 272249
+              "duration": 202790
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 110708
+              "duration": 81999
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2644910458
+              "duration": 2992396667
             }
           },
           {
@@ -70,8 +70,9 @@
               "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 1784042
+              "status": "failed",
+              "duration": 2751791,
+              "error_message": "AssertionError: First journey should have the minimal duration: expected 39 to equal 33\n    + expected - actual\n\n    -39\n    +33\n\n    at World.<anonymous> (file:///Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:41:41)"
             }
           }
         ],
@@ -95,7 +96,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 180457
+              "duration": 279499
             }
           },
           {
@@ -108,7 +109,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 275042
+              "duration": 145457
             }
           },
           {
@@ -121,7 +122,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 80973334
+              "duration": 2492232708
             }
           },
           {
@@ -134,7 +135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 568250
+              "duration": 1305459
             }
           }
         ],
@@ -158,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 682209
+              "duration": 779833
             }
           },
           {
@@ -171,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 76250
+              "duration": 97124
             }
           },
           {
@@ -184,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72540
+              "duration": 79917
             }
           },
           {
@@ -197,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1445582
+              "duration": 2159166
             }
           },
           {
@@ -210,20 +211,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3306024459
+              "duration": 2684948459
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 21,
-            "name": "\"belfast_qa_lead\" should receive the journey plan",
+            "name": "\"belfast_qa_lead\" should receive the \"arrive by 8:50am\" journey plan",
             "match": {
               "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 9504707
+              "duration": 8548957
             }
           }
         ],
