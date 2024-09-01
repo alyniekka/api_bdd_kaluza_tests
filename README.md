@@ -21,3 +21,10 @@ And to generate an HTML report:
 ```bash
 npm run report
 ```
+## Where to find the latest existing report
+The latest report can be found at /reports/cucumber_report.html 
+
+## Known issues
+API description for the reference https://api-portal.tfl.gov.uk/api-details#api=Journey&operation=Journey_JourneyResultsByPathFromPathToQueryViaQueryNationalSearchQueryDateQu
+1. journeyPreference = "leasttime" - doesn't seem to have any effect at all, at least I couldn't make it work isolated or in combination with other parameters. Hence, the test with the quickest journey is unstable, as there are always 4 options to travel and not only does the given param doesn't eliminate all other options it doesn't even sort the options, I'm currently checking the order of the journey which is unstable.(normally I would ask developers/anyone else from the team whether it's a bug or an issue in how I use the API)
+2. timeIs and time - again, not sure that API works as supposed to, I'm selecting from the array the journey with the latest arrival time (Scenario C) and checking if it's less than requested arrival time, if so - consider that requested journey plan was suggested
