@@ -1,0 +1,241 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "journey-planning;quickest-journey-within-a-city",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Quickest journey within a city",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "\"current_user\" is at \"69 Notting Hill Gate, London\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1393958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "\"current_user\" wants to travel to \"Southbank Centre, London\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "\"current_user\" is traveling on \"04.09.2024\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "\"current_user\" requests the \"quickest\" journey plan",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2644910458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "\"current_user\" should receive the \"quickest\" journey plan",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1784042
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "journey-planning;journey-between-cities",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Journey between cities",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "\"current_user\" is at \"69 Notting Hill Gate, London\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "\"current_user\" wants to travel to \"Temple Meads, Bristol\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "\"current_user\" requests the journey plan",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80973334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"current_user\" should receive the journey plan",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568250
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "journey-planning;journey-from-the-airport-to-the-office-by-a-specific-time",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Journey from the airport to the office by a specific time",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "\"belfast_qa_lead\" is at \"Luton Airport, Luton\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 682209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "\"belfast_qa_lead\" wants to travel to \"69 Notting Hill Gate, London\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "\"belfast_qa_lead\" is traveling on \"04.09.2024\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "\"belfast_qa_lead\" needs to arrive at the destination by \"8:50am\"",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1445582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "\"belfast_qa_lead\" requests the journey plan",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3306024459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "\"belfast_qa_lead\" should receive the journey plan",
+            "match": {
+              "location": "file:/Users/marinaiakovleva/api_bdd_kaluza_tests/features/step_definitions/journeyPlannerSteps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9504707
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "journey-planning",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Journey planning",
+    "tags": [],
+    "uri": "features/journeyPlanner.feature"
+  }
+]
